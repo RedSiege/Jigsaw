@@ -34,7 +34,7 @@ def generateJigsaw(filename):
     for position in raw_positions:
         jigsaw.append(shellcode[position])
 
-    jigsaw_array = 'char jigsaw[XXX] = {'
+    jigsaw_array = 'char jigsaw[XXX] = { '
     jigsaw_array += ', '.join(str(byte) for byte in jigsaw)
     jigsaw_array += ' };'
 
