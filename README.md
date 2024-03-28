@@ -1,6 +1,8 @@
 # Jigsaw
 Jigsaw takes a raw shellcode input and outputs randomized shellcode, a lookup table, and a C/C++ stub to translate the randomized shellcode back to a usable format.
 
+Read the Red Siege blog post explaining Jigsaw: [https://redsiege.com/blog/2024/03/jigsaw/](https://redsiege.com/blog/2024/03/jigsaw/)
+
 ## Usage
 ```python3 jigsaw.py inputfile.bin```
 
