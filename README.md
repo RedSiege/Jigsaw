@@ -6,6 +6,9 @@ Read the Red Siege blog post explaining Jigsaw: [https://redsiege.com/blog/2024/
 ## Usage
 ```python3 jigsaw.py inputfile.bin```
 
+## Note
+Jigsaw takes raw shellcode bytes (output format Raw in Cobalt Strike) as input.
+
 ## Example
 ```
 $ msfvenom -p windows/x64/exec CMD=calc.exe -f raw -o calc.bin
